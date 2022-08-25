@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
     res.send("running graphql");
 })
 
-app.use('/graphql',expressGraphql({
-    graphiql:true
-}))
+// app.use('/graphql',expressGraphql({
+//     graphiql:true
+// }))
 app.listen("8089",()=>console.log("server running"));
